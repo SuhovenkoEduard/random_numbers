@@ -1,0 +1,53 @@
+html, body {
+  width: 95vw;
+  height: 90vh;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px;
+  height: 330px;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.main-header {
+  font-size: 14pt;
+}
+
+.additional-header {
+  font-size: 12pt;
+}
+
+.results {
+  display: flex;
+  gap: 10px;
+}
+
+.guess-result {
+  border: 1px solid black;
+  width: 100px;
+  background-color: yellow;
+}
